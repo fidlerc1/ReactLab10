@@ -12,21 +12,14 @@ class MyList extends Component {
         };
         
     }
-    
-    updateList = () => {
-
-        console.log(this.state.list);
-        this.setState((state,props) => { return {list: this.props.value1}});
-        
-        
-    }
 
     
 
     render() {
+        {this.state.list = this.props.value1};
         return(
+            
             <div>
-                <button onclick={this.updateList()}>Update List</button>
                 
                 <p id='list' ref="list">Your list is {this.state.list[0]}, {this.state.list[1]}, {this.state.list[2]}.</p>
                 

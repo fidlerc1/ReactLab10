@@ -20,7 +20,7 @@ class Selector extends Component {
     }
 
     update2 = () => {
-        this.setState({selectorListSelect: [30,60,90]});
+        this.setState({selectorListSelect: [50,100,150]});
         console.log(this.state.selectorListSelect);
     }
 
@@ -28,8 +28,8 @@ class Selector extends Component {
         return(
             <div>
                 <MyList value1={this.state.selectorListSelect} />
-                <button type="button" onClick={this.update1}>List 30</button>
-                <button type="button" onClick={this.update2}>List 50</button>
+                <button type="button" onClick={this.update1}>List of 30's</button>
+                <button type="button" onClick={this.update2}>List of 50's</button>
             </div>
         )
     }

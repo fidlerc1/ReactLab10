@@ -8,7 +8,7 @@ class Container extends Component {
         super(props);
 
         this.state = {
-            myName: "Hello",
+            myName: "Caleb",
             x: 0,
             name: ""
         };
@@ -23,9 +23,7 @@ class Container extends Component {
         const yes = this.state
         return(
             <div id="foobar">
-                <h1>{this.state.myName}</h1>
-
-                <input type="submit" />
+                <h1>My name is {this.state.myName}!</h1>
 
                 <Selector myValue={this.handleCallback.bind(MyList)}/>
 
