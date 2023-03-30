@@ -1,7 +1,8 @@
 import React, {Component} from "react";
-import "./Container.css"
+import "./Container.css";
 import MyList from "./MyList.js";
 import Selector from "./Selector.js";
+import Request from "./Request";
 
 class Container extends Component {
     constructor(props) {
@@ -26,6 +27,8 @@ class Container extends Component {
                 <h1>My name is {this.state.myName}!</h1>
 
                 <Selector myValue={this.handleCallback.bind(MyList)}/>
+
+                <Request />
 
                 
                 
