@@ -1,7 +1,7 @@
 {
   "name": "lab10",
   "version": "0.1.0",
-  "homepage": "https://fidlerc1.github.io/ReactLab10",
+  "homepage": "https://fidlerc1.github.io/ReactLabs",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
